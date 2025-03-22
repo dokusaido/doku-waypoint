@@ -28,7 +28,7 @@
 <!-- Preview Section -->
 <h3 align="left">Preview</h3>
 <p align="center">
-  <img src="https://cdn.discordapp.com/attachments/1260763196575318109/1352793485425639444/image.png?ex=67dff75c&is=67dea5dc&hm=e8f0cc6295aec6ef17c6f953bc32fbcb389140496a11d2b5c60a8a344ecaed10&" alt="Preview Image 1" width="600px" /><br>
+  <img src="https://media.discordapp.net/attachments/1262732817633251408/1352870321274749068/image-3.png?ex=67df962b&is=67de44ab&hm=d9ed4a68af412d9c4177ab5c668766d272d052faaf2a13b29ef14a72d83da603&=&format=webp&quality=lossless&width=1242&height=699" alt="Preview Image 1" width="600px" /><br>
   <img src="https://cdn.discordapp.com/attachments/1260763196575318109/1352793486402916392/image.png?ex=67dff75c&is=67dea5dc&hm=abd3c6db7d5ddf274a9ba0647f57b852255dff129c1c7b48f71f2389205d765d&" alt="Preview Image 2" width="600px" /><br>
   <img src="https://cdn.discordapp.com/attachments/1260763196575318109/1352793487120138270/image.png?ex=67dff75d&is=67dea5dd&hm=3427eabec0d9dd259f4285b1722340aadc6682066f3b26ca7887d7e5add9990c&" alt="Preview Image 3" width="600px" /><br>
   <samp>Example images showcasing the custom HUD and pause menu.</samp>
