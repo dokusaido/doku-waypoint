@@ -4,7 +4,7 @@
 </h2>
 
 <!-- Visitor Badge -->
-<a href="https://github.com/YourUsername/YourRepository">
+<a href="https://github.com/dokusaido/doku-waypoint">
   <img align="right" src="https://komarev.com/ghpvc/?username=YourUsername&label=Visitors&color=0e75b6&style=flat" alt="Profile visitor" />
 </a>
 
@@ -17,7 +17,7 @@
 <p align="left">
   <samp>
     This script customizes your in-game HUD by dynamically scaling and coloring the waypoint marker, replacing the default pause menu colours,
-    and displaying essential character information using IC-Core (qb-core) and lb-phone.
+    and displaying essential character information using qb-core and lb-phone.
     <br>
     <br>
   </samp>
@@ -45,14 +45,14 @@
     <li>Customizing the pause menu’s background and text colours.</li>
     <li>Displaying key character information (Name, ID, Job Label, Bank/Cash balances, and Equipped Phone Number) when the pause menu is active.</li>
   </ul>
-  All data is pulled from IC-Core (qb-core) and lb-phone.
+  All data is pulled from QB-core and lb-phone.
 </p>
 
 <!-- Important Notice -->
 <h3 align="left">Important ⚠️</h3>
 <p>
   <ul>
-    <li>Please ensure you have both <code>ic-core</code> and <code>lb-phone</code> installed and running on your server.</li>
+    <li>Please ensure you have both <code>qb-core</code> and <code>lb-phone</code> installed and running on your server.</li>
     <li>Do not redistribute or modify this script without proper credit.</li>
     <li>Customize configuration settings as needed for your specific server environment.</li>
   </ul>
@@ -70,14 +70,15 @@
   <li>[ ] Add further customization options for HUD elements.</li>
   <li>[ ] Optimize performance if required.</li>
   <li>[ ] Extend compatibility with additional frameworks (if needed).</li>
+  <li>[ ] Look at making a doku-smallresources</li>
 </ul>
 
 <!-- Installation Instructions -->
 <h3 align="left">Install</h3>
 <ul>
   <li>Place the script folder in your <code>resources</code> directory.</li>
-  <li>Ensure <code>ic-core</code> and <code>lb-phone</code> are installed and properly configured.</li>
-  <li>Add <code>ensure YourScriptFolderName</code> to your <code>server.cfg</code>.</li>
+  <li>Ensure <code>qb-core</code> and <code>lb-phone</code> are installed and properly configured.</li>
+  <li>Add <code>ensure doku-waypoint</code> to your <code>server.cfg</code>.</li>
 </ul>
 
 <!-- Credits -->
@@ -100,6 +101,6 @@
 <details>
   <summary>Click to Expand - Full Script Credits</summary>
   <p>
-    All credits go to the original authors of IC-Core and lb-phone for their excellent work, as well as to the community for their continuous support.
+    All credits go to the original authors of QB-Core and lb-phone for their excellent work, as well as to the community for their continuous support.
   </p>
 </details>
