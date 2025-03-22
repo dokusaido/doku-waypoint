@@ -86,7 +86,7 @@
 <h3 align="left">Credits</h3>
 <p>
   <ul>
-    <li><strong>IC-Core (qb-core):</strong> The core framework for character data.</li>
+    <li><strong>QBCore:</strong> The core framework for character data.</li>
     <li><strong>lb-phone:</strong> Provides the phone number export (<code>GetEquippedPhoneNumber</code>).</li>
     <li><strong>doku:</strong> Original creator and maintainer.</li>
   </ul>
