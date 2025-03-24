@@ -1,6 +1,7 @@
 -- ## To Do
 -- Conditional Delay for Waypoint
 -- Check for any other overhead usuage
+-- It doubles routes, possible estimated 
 
 Config = {}
 Config.MarkerColor = {0, 102, 204}  -- Fixed color: RGB (0, 102, 204)
@@ -46,14 +47,14 @@ Citizen.CreateThread(function()
                 local playerCoords = GetEntityCoords(PlayerPedId())
                 local distance = #(playerCoords - coords)
                 
-                local dynamqbWidth = distance * Config.WidthMultiplier
-                if dynamqbWidth < Config.MinWidth then dynamqbWidth = Config.MinWidth end
-                if dynamqbWidth > Config.MaxWidth then dynamqbWidth = Config.MaxWidth end
+                local dynamicWidth = distance * Config.WidthMultiplier
+                if dynamicWidth < Config.MinWidth then dynamicWidth = Config.MinWidth end
+                if dynamicWidth > Config.MaxWidth then dynamicWidth = Config.MaxWidth end
                 
-                local dynamqbHeight = distance * Config.HeightMultiplier
-                if dynamqbHeight < Config.MinHeight then dynamqbHeight = Config.MinHeight end
-                if dynamqbHeight > Config.MaxHeight then dynamqbHeight = Config.MaxHeight end
-                dynamqbHeight = math.floor(dynamqbHeight * 100 + 0.5) / 100
+                local dynamicHeight = distance * Config.HeightMultiplier
+                if dynamicHeight < Config.MinHeight then dynamicHeight = Config.MinHeight end
+                if dynamicHeight > Config.MaxHeight then dynamicHeight = Config.MaxHeight end
+                dynamicHeight = math.floor(dynamicHeight * 100 + 0.5) / 100
                 
                 if waypointBlip ~= lastWaypoint then
                     if lastWaypoint then
@@ -69,7 +70,7 @@ Citizen.CreateThread(function()
                     coords.x, coords.y, coords.z,
                     0, 0, 0,            -- Offset
                     0, 0, 0,            -- Rotation
-                    dynamqbWidth, dynamqbWidth, dynamqbHeight,
+                    dynamicWidth, dynamicWidth, dynamicHeight,
                     Config.MarkerColor[1], Config.MarkerColor[2], Config.MarkerColor[3], Config.MarkerAlpha,
                     false, false, false, 0, nil, nil, false
                 )
